@@ -1,0 +1,28 @@
+Package: QuasiEx
+Type: Package
+Title: Simple Analysis of Quasi-Experimental Pretest-Posttest Designs
+Version: 0.1.0
+Authors@R: person("Jose", "Ventura-Leon", email = "jventuraleon@gmail.com",
+    role = c("aut", "cre"), comment = c(ORCID = "0000-0003-2996-4244"))
+Description: A small set of functions, one per step of the analysis, for
+    quasi-experimental studies with a non-equivalent control group and
+    pretest and posttest measures. It prepares the raw data (eligibility
+    criteria, participant flow, scores), describes baseline equivalence with
+    standardized mean differences, estimates reliability, within-group change,
+    the program effect through hierarchical regression (ANCOVA) with
+    covariates and bootstrap intervals, model assumptions, clinically
+    significant change and sensitivity analyses. Every result prints a table
+    and a plain-language reading of its key values.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+Depends: R (>= 4.1.0)
+Imports:
+    ggplot2,
+    lme4,
+    psych,
+    readxl,
+    stats,
+    utils
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
