@@ -1,7 +1,7 @@
 Package: QuasiEx
 Type: Package
 Title: Simple Analysis of Quasi-Experimental Pretest-Posttest Designs
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: person("Jose", "Ventura-Leon", email = "jventuraleon@gmail.com",
     role = c("aut", "cre"), comment = c(ORCID = "0000-0003-2996-4244"))
 Description: A small set of functions, one per step of the analysis, for
@@ -18,6 +18,7 @@ Encoding: UTF-8
 Language: es
 Depends: R (>= 4.1.0)
 Imports:
+    LimpiaR,
     ggplot2,
     lme4,
     psych,
@@ -26,3 +27,4 @@ Imports:
     utils
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Remotes: jventural/LimpiaR
